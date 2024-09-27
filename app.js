@@ -12,7 +12,7 @@ console.log(a)
 
 let invert = (array) => {
     let newarr = []
-    for (let i = 0; i <= array.length; i++) {
+    for (let i = 0; i <= array.length - 1; i++) {
         array[i] === 0 ? newarr.push(array[i]) : newarr.push(-array[i])
     }
 
@@ -27,18 +27,17 @@ console.log(result2)
 
 // 3 masala
 
-let getbonus = (n) => {
+let getbonus = (x,n) => {
     if (n === true) {
-        return '5000'
+        return x*10
     } else {
-        return '1000'
+        return x
     }
 }
 
-let t = getbonus (true);
-let f = getbonus (false);
+let t = getbonus (500, true);
 
-console.log(t, f);
+console.log(t);
 
 // 4 masala
 
