@@ -19,23 +19,23 @@ let invert = (array) => {
     return newarr;
 }
 
-let result = invert ([1, 2, 3])
-let result2 = invert ([-1, 2, -3, 0, -5])
+let result = invert([1, 2, 3])
+let result2 = invert([-1, 2, -3, 0, -5])
 
 console.log(result)
 console.log(result2)
 
 // 3 masala
 
-let getbonus = (x,n) => {
+let getbonus = (x, n) => {
     if (n === true) {
-        return x*10
+        return x * 10
     } else {
         return x
     }
 }
 
-let t = getbonus (500, true);
+let t = getbonus(500, true);
 
 console.log(t);
 
@@ -69,7 +69,7 @@ let formatmoney = (m) => {
     }
 }
 
-let son = formatmoney (39.30);
+let son = formatmoney(39.30);
 
 console.log(son);
 
@@ -79,7 +79,7 @@ let formatmoney2 = (m) => {
     }
 }
 
-let son2 = formatmoney2 (3);
+let son2 = formatmoney2(3);
 
 console.log(son2);
 
@@ -89,6 +89,6 @@ let formatmoney3 = (m) => {
     }
 }
 
-let son3 = formatmoney3 (9.1);
+let son3 = formatmoney3(9.1);
 
 console.log(son3);
