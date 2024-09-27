@@ -71,7 +71,6 @@ let formatmoney = (m) => {
 
 let son = formatmoney (39.30);
 
-
 console.log(son);
 
 let formatmoney2 = (m) => {
@@ -82,7 +81,6 @@ let formatmoney2 = (m) => {
 
 let son2 = formatmoney2 (3);
 
-
 console.log(son2);
 
 let formatmoney3 = (m) => {
@@ -92,6 +90,5 @@ let formatmoney3 = (m) => {
 }
 
 let son3 = formatmoney3 (9.1);
-
 
 console.log(son3);
