@@ -2,6 +2,12 @@
 
 let getAvarage = ([1, 2, 3]);
 
+getAvarage = getAvarage.toString();
+
+let a = getAvarage.charAt(2);
+
+console.log(a)
+
 // 2 masala
 
 let invert = (array) => {
@@ -51,3 +57,8 @@ let enough2 = (a, b, c) => {
 let result4 = enough2(12, 5, 10);
 
 console.log(-result4);
+
+// 6 masala
+
+let formatmoney = (39.30)
+
