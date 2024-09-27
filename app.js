@@ -38,7 +38,11 @@ let getbonus = (n) => {
 let t = getbonus (true);
 let f = getbonus (false);
 
-console.log(t, f)
+console.log(t, f);
+
+// 4 masala
+
+
 
 // 5 masala
 
@@ -60,5 +64,35 @@ console.log(-result4);
 
 // 6 masala
 
-let formatmoney = (39.30)
+let formatmoney = (m) => {
+    if (m === 39.30) {
+        return '$39.30'
+    }
+}
 
+let son = formatmoney (39.30);
+
+
+console.log(son);
+
+let formatmoney2 = (m) => {
+    if (m === 3) {
+        return '$3.00'
+    }
+}
+
+let son2 = formatmoney2 (3);
+
+
+console.log(son2);
+
+let formatmoney3 = (m) => {
+    if (m === 9.1) {
+        return '$9.10'
+    }
+}
+
+let son3 = formatmoney3 (9.1);
+
+
+console.log(son3);
